@@ -1,0 +1,79 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+body { 
+	font: 14px/1.4 Georgia, Serif; 
+}
+#page-wrap {
+	margin: 50px;
+}
+p {
+	margin: 20px 0; 
+}
+
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	table { 
+		//* width: 100%; *//
+		border-collapse: center; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+		text-align: center; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 0px solid #ccc; 
+		text-align: left; 
+	}
+	
+	.rot {
+		width: 30px;
+		background: #ff0000; 
+		color: white; 
+		font-weight: bold; 
+		text-align: center; 
+    }
+    .gelb {
+		width: 30px;
+		background: #ffff00; 
+		color: blue; 
+		font-weight: bold; 
+		text-align: center; 
+    }
+   .gruen {
+	    width: 30px;
+		background: #00ff00; 
+		color: black; 
+		font-weight: bold; 
+		text-align: center; 
+    }
+	
+@media only screen and (max-width: 900px) {   
+ .mobile-hide{ visibility: hidden; 
+ display: none;
+ }   
+ 
+} 
+	input[type=button], input[type=submit], input[type=reset] {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#my-main-div { 
+
+style="float:left;
+width:auto;
+}
